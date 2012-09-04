@@ -27,6 +27,9 @@ PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 PRODUCT_LOCALES += hdpi
 
+#Bootanimation
+TARGET_BOOTANIMATION_NAME := bootanimation_n7
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240
 
